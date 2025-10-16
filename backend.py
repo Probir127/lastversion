@@ -76,7 +76,7 @@ Answer (be helpful, clear, and concise):"""
     try:
         response = hf_client.text_generation(
             prompt,
-            model="mistralai/Mistral-7B-Instruct-v0.3",
+            model="microsoft/Phi-3-mini-4k-instruct",
             max_new_tokens=512,
             temperature=0.7,
         )
@@ -94,3 +94,4 @@ Answer (be helpful, clear, and concise):"""
 if __name__ == "__main__":
     print("\n🧪 Testing backend...")
     print(get_response("How do I apply for parental leave?"))
+
