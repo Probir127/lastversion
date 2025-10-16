@@ -1,0 +1,10 @@
+[build]
+  base = "backend"
+  command = "gunicorn backend:app"
+  publish = "."
+
+[functions]
+  directory = "backend/netlify/functions"
+
+[context.production.environment]
+  PYTHON_VERSION = "3.13.5"
