@@ -5,9 +5,9 @@ pydantic
 sentence-transformers
 faiss-cpu
 huggingface-hub
-spacy==3.6.0
-thinc==8.1.8
-srsly==2.4.6
+spacy
+thinc
+srsly
 transformers
 torch
 numpy
