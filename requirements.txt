@@ -1,0 +1,25 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+sentence-transformers
+faiss-cpu
+huggingface-hub
+spacy==3.6.0
+thinc==8.1.8
+srsly==2.4.6
+transformers
+torch
+numpy
+scipy
+scikit-learn
+requests
+langchain
+langchain-community
+unstructured
+pypdf
+python-multipart
+streamlit
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+gunicorn
+flask   # only if using Flask
